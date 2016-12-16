@@ -10,3 +10,4 @@ githubedition
 коммит который нужно исправить! - пропустили конец предложения
 строка после мерджа
 line from githubbranch2
+githubbranch2 - new commit
