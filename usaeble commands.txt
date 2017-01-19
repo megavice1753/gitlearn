@@ -12,3 +12,9 @@ git config --global alias.allbranches "branch -vv -a"
 
 выводит список коммитов в сокращенном виде sha1 - commitname
 git config --global alias.prettylog "log --pretty=oneline"
+
+отредактировать название коммита и применить это в удалееной ветке
+где push --force приводит состояние удаленной ветке к состоянию локальной,
+а первая - всего лишь редактирует локальный коммит
+git commit --amend -m "new message"
+git push --force
