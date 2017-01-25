@@ -18,3 +18,10 @@ git config --global alias.prettylog "log --pretty=oneline"
 а первая - всего лишь редактирует локальный коммит
 git commit --amend -m "new message"
 git push --force
+
+cherry-pick example
+git checkout -b cherry
+git commit -m "cherry1"   //asdfg
+git commit -m "cherry2"   //qwert
+git checkout master
+git cherry-pick asdfg
