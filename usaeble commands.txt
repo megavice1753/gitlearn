@@ -7,6 +7,10 @@ git config --system --unset credential.helper
 git config --global --unset credential.helper
 git config --global push.default simple
 
+git config --global core.autocrlf false
+git config --global core.safecrlf false
+git config --global user.email megavice2013@gmail.com
+
 отображает список всех(-a) веток в репе с описанием(-vv) апстримов локальных веток
 git config --global alias.allbranches "branch -vv -a"
 
